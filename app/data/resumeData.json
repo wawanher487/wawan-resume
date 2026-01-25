@@ -1,0 +1,90 @@
+{
+  "name": "Wawan Hermawan",
+  "title": "Software Engineer",
+  "email": "wawanhermawan2402@gmail.com",
+  "phone": "+62 819-4508-5681",
+  "location": "Katapang, Bandung",
+  "website": "wawanhermawan.dev",
+  "linkedin": "www.linkedin.com/in/wawan-hermawan-2983962b3",
+  "github": "https://github.com/wawanher487",
+  "summary": "I am a Fullstack Developer proficient in Next.js and React.js for frontend, as well as NestJS and Node.js for backend. I enjoy building well-structured, responsive web applications that are ready for large-scale development.",
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": ["JavaScript", "TypeScript", "PHP"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS"]
+    },
+    {
+      "category": "Backend",
+      "items": ["NesJS", "Node.js", "Express"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MongoDB", "PostgreSQL", "MySQL"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "IT Intern",
+      "company": "SEAMEO CECCEP",
+      "location": "Indonesia",
+      "date": "Present",
+      "achievements": [
+        "Contributed to the development and maintenance of internal applications and official websites.",
+        "Assisted in managing web-based systems to support organizational programs and activities.",
+        "Collaborated with the IT team to improve functionality, usability, and system reliability."
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "PT LSKK",
+      "location": "Indonesia",
+      "date": "Aug 2024 - Jan 2025",
+      "achievements": [
+        "Developed RESTful APIs for the MONJA (Road Monitoring) application using NestJS.",
+        "Designing and implementing backend services to support the frontend team",
+        "Built an employee attendance web application using face recognition technology."
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "Institut Teknologi Garut",
+      "location": "Garut, Indonesia",
+      "date": "Sep 2023 - Aug 2024",
+      "achievements": [
+        "Assisted lecturers in Mobile Programming and Computer Networking laboratory sessions.",
+        "Guided students during practical sessions and helped troubleshoot coding and networking issues.",
+        "Evaluated assignments and supported students in understanding core technical concepts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Informatics Engineering (S1)",
+      "school": "Institut Teknologi Garut",
+      "location": "Garut, Indonesia",
+      "date": "2021 - 2025",
+      "gpa": "3.91 / 4.00"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ITS Database Certification",
+      "issuer": "Certiport",
+      "date": "2024"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Intermediate"
+    },
+    {
+      "language": "Japanese",
+      "proficiency": "Basic"
+    }
+  ]
+}
