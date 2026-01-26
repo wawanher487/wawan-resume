@@ -14,14 +14,14 @@ interface ResumeProps {
 
 export default function Resume({ data }: ResumeProps) {
   return (
-    <div className="w-[210mm] min-h-[297mm] bg-white text-gray-800 p-8 shadow-lg font-sans">
-      <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900">{data.name}</h1>
-        <p className="mt-1 text-xl text-blue-600">{data.title}</p>
-        <div className="flex flex-wrap gap-4 mt-4 text-sm text-gray-600">
-          <div className="flex items-center">
-            <FaEnvelope className="mr-2" />
-            {data.email}
+    <div className=" mx-auto bg-white text-gray-800 font-sans w-full max-w-[210mm] min-h-screen p-4 sm:p-6 md:p-8 shadow-none md:shadow-lg print:w-[210mm] print:min-h-[297mm] print:shadow-none">
+      <header className="mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">{data.name}</h1>
+        <p className="mt-1 text-lg sm:text-xl text-blue-600">{data.title}</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 mt-4 text-sm text-gray-600">
+          <div className="flex items-center gap-2 break-all">
+            <FaEnvelope />
+            <span>{data.email}</span>
           </div>
           <div className="flex items-center">
             <FaPhone className="mr-2" />
@@ -57,7 +57,7 @@ export default function Resume({ data }: ResumeProps) {
         <h2 className="pb-1 mb-3 text-2xl font-semibold text-gray-800 border-b-2 border-blue-500">
           Skills
         </h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {data.skills.map((skillGroup, index) => (
             <div key={index}>
               <h3 className="mb-1 font-semibold text-gray-700">
@@ -77,12 +77,12 @@ export default function Resume({ data }: ResumeProps) {
         </h2>
         {data.experience.map((job, index) => (
           <div key={index} className="mb-4">
-            <h3 className="font-semibold text-gray-800">{job.title}</h3>
+            <h3 className="font-semibold text-gray-800 md:text-lg">{job.title}</h3>
             <p className="italic text-gray-600">
               {job.company} | {job.location}
             </p>
             <p className="text-sm text-gray-500">{job.date}</p>
-            <ul className="mt-2 text-gray-700 list-disc list-inside">
+            <ul className="mt-2 text-sm md:text-base text-gray-700 list-disc list-inside">
               {job.achievements.map((achievement, idx) => (
                 <li key={idx}>{achievement}</li>
               ))}
@@ -126,7 +126,7 @@ export default function Resume({ data }: ResumeProps) {
         <h2 className="pb-1 mb-3 text-2xl font-semibold text-gray-800 border-b-2 border-blue-500">
           Languages
         </h2>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-2 md:gap-4">
           {data.languages.map((lang, index) => (
             <div
               key={index}
